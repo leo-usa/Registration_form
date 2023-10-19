@@ -13,7 +13,7 @@ ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg'}
 #
 # set app configs and database
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://rqodnvybmqdysn:9ee3977d1c8650443397c39fab330bb7daba062a4acb34783c9194319a4fdc04@ec2-52-22-216-69.compute-1.amazonaws.com:5432/d2pj7anncnudvr'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://chat_drpang_user:foL0YIXZ1DrDuxLNhbjxms8mxbLjSDb3@dpg-cko6046jmi5c738un2s0-a.oregon-postgres.render.com/chat_drpang_kx8v'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 SQLALCHEMY_TRACK_MODIFICATIONS = False
 app.debug = True
